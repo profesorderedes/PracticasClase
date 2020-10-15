@@ -1,0 +1,39 @@
+public class Ejemplo1 {
+
+	public static void main(String[] args) {
+
+		// Ejemplo de desbordamiento de una variable.
+		byte numero = 127;
+		System.out.println(numero);
+		numero = (byte) (numero + 1);
+		System.out.println(numero);
+		
+		// Ejemplos de operaciones aritméticas.
+		int resultado = 120 * 10 + 1;
+		System.out.println(resultado);
+		
+		resultado = 10 % 3;
+		System.out.println(resultado);
+		
+		// Ejemplos de operaciones relacionales.
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+public class Ejemplo1 {
+
+	public static void main(String[] args) {
+
+		byte numero = 127;
+		System.out.println(numero);
+		numero = numero + 1;
+		
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+
+public class Ejemplo4 {
+	
+	public static void main(String[] args) {
+		
+		byte num1 = 100;
+		short num2 = 2000;
+		
+		int num3 = num2;
+		
+		long num4 = 1090;
+		
+		float num5 = num4;
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+
+public class Ejemplo5 {
+
+	public static void main(String[] args) {
+		
+		// Conversiones explícitas
+		
+		int num1 = 50000;
+		
+		byte num2 = (byte) num1;
+		
+		System.out.println(num2);
+		
+		double num3 = 3000000000.0;
+		
+		int num4 = (int) num3;
+		
+		System.out.println(num4);
+		
+
+	}
+
+}

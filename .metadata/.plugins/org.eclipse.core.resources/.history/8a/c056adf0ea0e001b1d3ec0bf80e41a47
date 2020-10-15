@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Â¡Escribe dos nÃºmeros y te los diré el resto de la division!");
+
+		System.out.println("Primer nÃºmero");
+
+		int num1 = entrada.nextInt();
+
+		System.out.println("Segundo nÃºmero");
+
+		int num2 = entrada.nextInt();
+
+		int producto = num1 % num2;
+
+		System.out.println("Resultado " + producto);
+
+	}
+
+}

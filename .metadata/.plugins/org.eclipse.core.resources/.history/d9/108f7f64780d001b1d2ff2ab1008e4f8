@@ -1,0 +1,14 @@
+
+public class Ejemplo5 {
+
+	public static void main(String[] args) {
+		
+		// Conversiones explícitas
+		
+		int num1 = 50;
+		
+		byte num2 = num1;
+
+	}
+
+}
