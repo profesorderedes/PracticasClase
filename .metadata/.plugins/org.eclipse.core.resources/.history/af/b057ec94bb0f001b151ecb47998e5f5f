@@ -1,0 +1,27 @@
+//Escribe una aplicación que pida el nombre de un producto, su precio 
+//y el número de unidades vendidas, 
+//y devuelva el coste total de la compra.
+import java.util.Scanner;
+
+public class Ejercicio6 {
+
+	public static void main(String[] args) {
+	
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("¿Cual es el nombre del artículo?");
+		String articulo = entrada.nextLine();
+		
+		System.out.println("¿Cual es el precio del artículo?");
+		int precio = entrada.nextInt();
+		
+		System.out.println("¿Cuantas unidades has comprado?");
+		int num1 = entrada.nextInt();
+		
+		int num2 = precio * num1;
+		
+		System.out.println("El precio total de su compra es de " + num2 + "€");
+
+	}
+
+}
