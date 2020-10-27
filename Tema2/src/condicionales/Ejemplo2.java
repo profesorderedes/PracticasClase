@@ -15,7 +15,11 @@ public class Ejemplo2 {
 		if(precio > 50) {
 			
 			// Haremos descuento de 10%.
+			System.out.println("Tienes derecho a descuento.");
 			precio = precio - (precio * 10 /100);
+			
+		}else {
+			System.out.println("No tienes derecho a un descuento.");
 			
 		}
 		
