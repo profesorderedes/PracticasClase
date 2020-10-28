@@ -7,6 +7,9 @@ public class Ejercicio6 {
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Gestión de tienda");
+		System.out.println("========================");
 
 		System.out.print("Precio del producto: ");
 		float precio = entrada.nextFloat();
@@ -18,10 +21,10 @@ public class Ejercicio6 {
 
 		if (total > 75) {
 			total = total - total * 15 / 100;
-		}else {
+		} else {
 			total = total - total * 5 / 100;
 		}
-		
+
 		System.out.println("Total a pagar: " + total + " €.");
 
 	}
