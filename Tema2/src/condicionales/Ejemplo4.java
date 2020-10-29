@@ -15,15 +15,27 @@ public class Ejemplo4 {
 		System.out.print("Categoría salarial? ");
 		int categoria = entrada.nextInt();
 
-		if (categoria == 1) {
+		switch (categoria) {
+		case 1:
 			System.out.println("Salario = 1000 €");
-		} else if (categoria == 2) {
+		case 2:
 			System.out.println("Salario = 1500 €");
-		} else if (categoria == 3) {
+		case 3:
 			System.out.println("Salario = 2000 €");
-		} else {
+			break;
+		default:
 			System.out.println("Salario = 2500 €");
 		}
+
+//		if (categoria == 1) {
+//			System.out.println("Salario = 1000 €");
+//		} else if (categoria == 2) {
+//			System.out.println("Salario = 1500 €");
+//		} else if (categoria == 3) {
+//			System.out.println("Salario = 2000 €");
+//		} else {
+//			System.out.println("Salario = 2500 €");
+//		}
 
 	}
 
