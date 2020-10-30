@@ -8,6 +8,8 @@ public class Ejercicio16 {
 
 		Scanner entrada = new Scanner(System.in);
 
+		System.out.println("Escribe el año: ");
+		int anyo = entrada.nextInt();
 		System.out.println("Escribe el número de mes:");
 		int mes = entrada.nextInt();
 
@@ -28,9 +30,18 @@ public class Ejercicio16 {
 			System.out.println("30 días");
 			break;
 		case 2:
-			
-			
-			
+			// Si es divisible entre 4 pero no entre 100.
+			// O
+			// Si es divisible entre 100 y 400.
+			// 1500 no bisiesto
+			// 1600 bisiesto
+			// 1700 no bisiesto
+			if ((anyo % 4 == 0 && anyo % 100 != 0) || anyo % 400 == 0) {
+				System.out.println("29 días");
+			} else {
+				System.out.println("28 días");
+			}
+
 			break;
 		default:
 			System.out.println("El número de mes no es válido.");
