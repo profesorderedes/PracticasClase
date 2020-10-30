@@ -2,7 +2,7 @@ package condicionales;
 
 import java.util.Scanner;
 
-public class Ejercicio15 {
+public class Ejercicio16 {
 
 	public static void main(String[] args) {
 
@@ -28,7 +28,9 @@ public class Ejercicio15 {
 			System.out.println("30 días");
 			break;
 		case 2:
-			System.out.println("28 días");
+			
+			
+			
 			break;
 		default:
 			System.out.println("El número de mes no es válido.");
