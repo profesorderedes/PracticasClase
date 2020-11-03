@@ -11,21 +11,20 @@ public class Ejercicio19 {
 		System.out.println("Adivina el número entero entre 0 y 10");
 
 		if (entrada.hasNextInt()) {
-			
+
 			int num = entrada.nextInt();
-			if(num == 3) {
-				
+			if (num == 3) {
+
 				System.out.println("¡¡Has acertado el número secreto!!");
-				
-			}else {
-				
+
+			} else {
+
 				System.out.println("No has acertado el número secreto.");
-				
+
 			}
-			
+
 		} else {
-			System.out.println("Te he dicho que escribieras un número "
-					+ "entre 0 y 10.");
+			System.out.println("Te he dicho que escribieras un número " + "entre 0 y 10.");
 		}
 
 	}
