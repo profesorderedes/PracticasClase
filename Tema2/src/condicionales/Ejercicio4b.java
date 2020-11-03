@@ -1,8 +1,11 @@
 package condicionales;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class Ejercicio4 {
+/*
+	Versión del ejercicio 4 usando un String para la contraseña.
+ */
+public class Ejercicio4b {
 
 	public static void main(String[] args) {
 
