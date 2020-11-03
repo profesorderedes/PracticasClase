@@ -2,7 +2,7 @@ package condicionales;
 
 import java.util.Scanner;
 
-public class Ejemplo1 {
+public class Ejemplo01 {
 
 	public static void main(String[] args) {
 
