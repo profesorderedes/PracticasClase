@@ -23,23 +23,7 @@ public class Ejercicio10 {
 		} else {
 			System.out.println("Sobresaliente");
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

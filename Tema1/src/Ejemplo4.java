@@ -13,9 +13,9 @@ public class Ejemplo4 {
 
 		long num4 = 1090; // Ocupa 8 bytes
 
-		float num5 = num4; // Ocupa 4 bytes, pero permite guardar números 
-						   // más grandes que un long,
-						   // perdiendo precisión.
+		float num5 = num4; // Ocupa 4 bytes, pero permite guardar números
+							// más grandes que un long,
+							// perdiendo precisión.
 
 		double num6 = num5;
 

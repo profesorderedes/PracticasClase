@@ -23,23 +23,7 @@ public class Ejemplo03 {
 		} else {
 			System.out.println("Sobresaliente");
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

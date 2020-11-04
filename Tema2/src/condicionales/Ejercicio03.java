@@ -14,13 +14,12 @@ public class Ejercicio03 {
 		if (precio > 80) {
 			precio = precio - precio * 10 / 100;
 		}
-		
-		if(precio < 5) {
+
+		if (precio < 5) {
 			precio = precio + 2;
 		}
 
-		System.out.println("Precio final: " 
-				+ precio + " €.");
+		System.out.println("Precio final: " + precio + " €.");
 
 	}
 

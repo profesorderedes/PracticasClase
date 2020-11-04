@@ -17,8 +17,7 @@ public class Ejercicio6 {
 
 		float precioTotal = precio * unidades;
 
-		System.out.println("El precio total de su compra es de " 
-				+ precioTotal + " €");
+		System.out.println("El precio total de su compra es de " + precioTotal + " €");
 
 	}
 

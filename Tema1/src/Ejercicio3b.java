@@ -6,8 +6,7 @@ public class Ejercicio3b {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("Pon dos numeros los dividiré y te devolveré "
-				+ "el cociente y el resto");
+		System.out.println("Pon dos numeros los dividiré y te devolveré " + "el cociente y el resto");
 
 		System.out.println("Pon el primer numero");
 

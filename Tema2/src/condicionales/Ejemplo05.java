@@ -14,16 +14,15 @@ public class Ejemplo05 {
 		System.out.println("¿Cuántos años tienes?");
 
 		if (entrada.hasNextInt()) {
-			
+
 			// El usuario ha puesto un dato correcto.
 			int edad = entrada.nextInt();
 			System.out.println("Tienes " + edad + " años.");
-			
-		}else {
-			
-			System.out.println("La edad que has escrito no es correcta. "
-					+ "Debe ser un número entero.");
-			
+
+		} else {
+
+			System.out.println("La edad que has escrito no es correcta. " + "Debe ser un número entero.");
+
 		}
 
 	}

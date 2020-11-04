@@ -18,9 +18,8 @@ public class Ejercicio5 {
 		float cantidadDescontada = precio * descuento / 100;
 		float precioDescontado = precio - cantidadDescontada;
 
-		System.out.println(articulo + " tiene un precio de " + precio 
-				+ ", con un descuento" + " de " + cantidadDescontada
-				+ " €. Su precio final es de " + precioDescontado + " €");
+		System.out.println(articulo + " tiene un precio de " + precio + ", con un descuento" + " de "
+				+ cantidadDescontada + " €. Su precio final es de " + precioDescontado + " €");
 	}
 
 }

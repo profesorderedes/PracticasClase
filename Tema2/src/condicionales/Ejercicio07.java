@@ -14,8 +14,7 @@ public class Ejercicio07 {
 		int numero;
 		final int NUMERO_SECRETO = 5;
 
-		System.out.println("Adivina el número secreto: escribe un número "
-				+ "del 1 al 10");
+		System.out.println("Adivina el número secreto: escribe un número " + "del 1 al 10");
 		numero = entrada.nextInt();
 
 		if (numero == NUMERO_SECRETO) {

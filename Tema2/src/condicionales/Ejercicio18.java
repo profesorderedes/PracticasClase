@@ -14,8 +14,7 @@ public class Ejercicio18 {
 			int num = entrada.nextInt();
 			System.out.println("El número elegido es " + num);
 		} else {
-			System.out.println("Te he dicho que escribieras un número "
-					+ "entre 0 y 10.");
+			System.out.println("Te he dicho que escribieras un número " + "entre 0 y 10.");
 		}
 
 	}

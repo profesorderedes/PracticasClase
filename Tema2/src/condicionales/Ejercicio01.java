@@ -13,8 +13,7 @@ public class Ejercicio01 {
 
 		if (temperatura > 120) {
 
-			System.out.println("TEMPERATURA DEL REACTOR CRÍTICA. "
-					+ "¡CORRED, INSENSATOS!");
+			System.out.println("TEMPERATURA DEL REACTOR CRÍTICA. " + "¡CORRED, INSENSATOS!");
 
 		}
 
