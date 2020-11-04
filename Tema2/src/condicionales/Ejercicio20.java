@@ -8,21 +8,13 @@ public class Ejercicio20 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		int mayorDeEdad = 18;
 		System.out.println("¿Qué edad tienes?");
 		int edad = entrada.nextInt();
 
-		String respuesta;
+		boolean mayorDeEdad = edad >= 18 ? true : false;
 
-		respuesta = edad < mayorDeEdad ? "Verdadero." : "Falso.";
+		System.out.println(mayorDeEdad);
 
-//        if(edad < mayorDeEdad) {
-//            System.out.println("Verdadero");
-//        }else {
-//            System.out.println("Falso.");
-//        }
-
-		System.out.println(respuesta);
 	}
 
 }
