@@ -18,7 +18,7 @@ public class Ejercicio22 {
 //		}else {
 //			horaCierre = "14:00";
 //		}
-		
+
 		System.out.println(horaCierre);
 	}
 

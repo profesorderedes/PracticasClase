@@ -6,14 +6,14 @@ public class Ejemplo06 {
 	public static void main(String[] args) {
 
 		int contador = 500;
-		
+
 		while (contador >= 10) {
-			
+
 			System.out.println(contador);
-			contador = contador - 10; // También podría ser contador -= 10 
-			
+			contador = contador - 10; // También podría ser contador -= 10
+
 		}
-		
+
 		System.out.println("De nada.");
 
 	}

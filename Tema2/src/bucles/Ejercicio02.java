@@ -11,8 +11,7 @@ public class Ejercicio02 {
 		System.out.println("Escribe un carácter, por favor:");
 		String caracter = entrada.nextLine();
 
-		System.out.println("¿Cuántas veces quieres que se " 
-				+ "muestre en la pantalla?");
+		System.out.println("¿Cuántas veces quieres que se " + "muestre en la pantalla?");
 		int repeticiones = entrada.nextInt();
 
 		int contador = 1;
