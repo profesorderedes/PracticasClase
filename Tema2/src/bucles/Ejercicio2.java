@@ -22,5 +22,5 @@ public class Ejercicio2 {
 			contador++;
 
 		}
-	}.
+	}
 }
