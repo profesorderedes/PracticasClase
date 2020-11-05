@@ -2,21 +2,25 @@ package bucles;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner entrada = new Scanner(System.in);
-		
+
 		System.out.println("Escribe un carácter, por favor:");
 		String caracter = entrada.nextLine();
-		
+
+		System.out.println("¿Cuántas veces quieres que se " 
+				+ "muestre en la pantalla?");
+		int repeticiones = entrada.nextInt();
+
 		int contador = 1;
-		while(contador <= 100) {
-			
-			System.out.println(contador  + " " + caracter);
+		while (contador <= repeticiones) {
+
+			System.out.println(contador + " " + caracter);
 			contador++;
-			
+
 		}
-	}
+	}.
 }
