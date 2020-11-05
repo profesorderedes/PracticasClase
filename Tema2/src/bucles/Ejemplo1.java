@@ -6,11 +6,10 @@ public class Ejemplo1 {
 
 		int contador = 1;
 		
-		while (contador <= 10000000) {
+		while (contador <= 100) {
 			
 			System.out.println(contador);
 			contador++; // Como escribir contador = contador + 1
-			contador += 10;
 		}
 		
 		System.out.println("De nada.");
