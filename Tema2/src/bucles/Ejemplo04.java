@@ -10,7 +10,8 @@ public class Ejemplo04 {
 		while (contador <= 500) {
 			
 			System.out.println(contador);
-			contador++;
+			contador = contador + 5;
+			//contador += 5;
 		}
 		
 		System.out.println("De nada.");
