@@ -1,5 +1,6 @@
 package bucles;
 
+// Mostrar los números del 1 al 100.
 public class Ejemplo08 {
 
 	public static void main(String[] args) {
