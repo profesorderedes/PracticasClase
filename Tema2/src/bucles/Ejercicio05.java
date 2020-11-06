@@ -13,7 +13,7 @@ public class Ejercicio05 {
 
 		int contador = 0;
 		int resultado;
-		
+
 		while (contador < 11) {
 
 			resultado = number * contador;
