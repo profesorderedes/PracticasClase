@@ -12,7 +12,7 @@ public class Ejercicio12 {
 
 		do {
 
-			System.out.println("¿Quien es el autor de la novela Ready player one?");
+			System.out.println("¿Quién es el autor de la novela Ready player one?");
 			System.out.println("1. Dougles Capland");
 			System.out.println("2. Isaac Asimov");
 			System.out.println("3. Ernest Cline");
