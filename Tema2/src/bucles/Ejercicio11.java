@@ -10,10 +10,10 @@ public class Ejercicio11 {
 		int num;
 
 		do {
-			
+
 			System.out.println("Escribe un número entre el 1 y el 20.");
 			num = entrada.nextInt();
-			
+
 		} while (num < 1 || num > 20);
 
 		System.out.println("Tú número elegido es: " + num);

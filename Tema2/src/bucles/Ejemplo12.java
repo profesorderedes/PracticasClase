@@ -16,12 +16,11 @@ public class Ejemplo12 {
 		System.out.println("¿Cuántas veces quieres que se " + "muestre en la pantalla?");
 		int repeticiones = entrada.nextInt();
 
-		int contador = 1;
-		while (contador <= repeticiones) {
+		for (int i = 1; i <= repeticiones; i++) {
 
-			System.out.println(contador + " " + caracter);
-			contador++;
+			System.out.println(i + " " + caracter);
 
 		}
+
 	}
 }
