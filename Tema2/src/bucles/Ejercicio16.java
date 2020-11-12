@@ -10,8 +10,7 @@ public class Ejercicio16 {
 			
 			System.out.println(potencia);
 			potencia = potencia * 2;
-			
-			
+						
 		}
 		
 	}
