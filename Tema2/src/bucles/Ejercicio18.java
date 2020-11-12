@@ -13,6 +13,14 @@ public class Ejercicio18 {
 
 			System.out.print("Nota? ");
 			nota = entrada.nextDouble();
+			
+			while(nota < 0 || nota > 10) {
+				
+				System.out.println("La nota no es correcta. Tiene que "
+						+ "estar entre 0 y 10");
+				nota = entrada.nextDouble();
+				
+			}
 
 		}
 
