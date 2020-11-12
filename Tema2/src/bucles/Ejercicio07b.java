@@ -1,10 +1,10 @@
 package bucles;
 
-public class Ejercicio07 {
+public class Ejercicio07b {
 
 	public static void main(String[] args) {
 
-		int contador = 0;
+		int contador = 2;
 
 		System.out.println("Los 50 primeros números pares!!!");
 
