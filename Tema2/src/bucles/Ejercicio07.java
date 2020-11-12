@@ -10,8 +10,7 @@ public class Ejercicio07 {
 
 		while (contador < 50) {
 
-			System.out.println("El par nº " + (contador + 1) + " es " 
-					+ contador * 2);
+			System.out.println("El par nº " + (contador + 1) + " es " + contador * 2);
 			contador++;
 
 		}
