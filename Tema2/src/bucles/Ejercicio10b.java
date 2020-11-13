@@ -2,6 +2,9 @@ package bucles;
 
 import java.util.Scanner;
 
+/*
+ * Ejercicio 10 usando una variable semáforo.
+ */
 public class Ejercicio10b {
 
 	public static void main(String[] args) {
@@ -9,6 +12,9 @@ public class Ejercicio10b {
 		Scanner entrada = new Scanner(System.in);
 
 		int num = 0;
+		
+		// Variable semáforo. Si vale true, el bucle no se ejecutará, 
+		// y si vale false, sí.
 		boolean acertado = false;
 
 		while (acertado == false) {
