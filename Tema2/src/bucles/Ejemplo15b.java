@@ -2,9 +2,9 @@ package bucles;
 
 import java.util.Scanner;
 
-// Ejemplo de break.
+// Ejemplo sin usar break.
 
-public class Ejemplo15 {
+public class Ejemplo15b {
 
 	public static void main(String[] args) {
 
