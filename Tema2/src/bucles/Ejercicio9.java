@@ -4,8 +4,8 @@ public class Ejercicio9 {
 
 	public static void main(String[] args) {
 
-		int dividendo = 30;
-		int divisor = 7;
+		int dividendo = 20;
+		int divisor = 6;
 
 		int resta = dividendo - divisor;
 
