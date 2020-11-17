@@ -17,29 +17,20 @@ public class Ejemplo15b {
 		float cantidad;
 		float suma = 0;
 
-		while (true) {
+		System.out.print("Cantidad: ");
+		cantidad = entrada.nextFloat();
+
+		while (cantidad != 0) {
+
+			suma = suma + cantidad;
 
 			System.out.print("Cantidad: ");
 			cantidad = entrada.nextFloat();
 
-			suma = suma + cantidad;
-
-			if (cantidad == 0) {
-				break;
-			}
-
 		}
-		
+
 		System.out.println("Cantidad total: " + suma);
 
 	}
 
 }
-
-
-
-
-
-
-
-
