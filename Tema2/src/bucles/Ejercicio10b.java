@@ -12,8 +12,8 @@ public class Ejercicio10b {
 		Scanner entrada = new Scanner(System.in);
 
 		int num = 0;
-		
-		// Variable semáforo. Si vale true, el bucle no se ejecutará, 
+
+		// Variable semáforo. Si vale true, el bucle no se ejecutará,
 		// y si vale false, sí.
 		boolean acertado = false;
 

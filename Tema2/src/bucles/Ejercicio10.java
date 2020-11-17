@@ -9,7 +9,7 @@ public class Ejercicio10 {
 		Scanner entrada = new Scanner(System.in);
 
 		int num = 0;
-		
+
 		System.out.println("¿Cómo se escribe 30 en hexadecimal?\n");
 		System.out.println("1) 1E");
 		System.out.println("2) 2F");
@@ -22,14 +22,13 @@ public class Ejercicio10 {
 			System.out.println("Vuelve a intentarlo, pero esta vez que sea del 1 al 4, gracias");
 			num = entrada.nextInt();
 		}
-		
-		if(num == 1) {
+
+		if (num == 1) {
 			System.out.println("Enhorabuena, has acertado");
-		}else {
+		} else {
 			System.out.println("Has fallado. La respuesta correcta es la 1.");
 		}
-		
-		
+
 	}
 
 }

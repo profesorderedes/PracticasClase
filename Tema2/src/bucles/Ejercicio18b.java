@@ -18,9 +18,9 @@ public class Ejercicio18b {
 				System.out.println(nota + " no es una nota válida, por favor, intentelo de nuevo");
 				i--;
 			}
-			
+
 			i++;
-			
+
 		}
 	}
 

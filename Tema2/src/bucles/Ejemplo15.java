@@ -29,17 +29,9 @@ public class Ejemplo15 {
 			}
 
 		}
-		
+
 		System.out.println("Cantidad total: " + suma);
 
 	}
 
 }
-
-
-
-
-
-
-
-

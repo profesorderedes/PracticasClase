@@ -25,21 +25,8 @@ public class Ejemplo13 {
 
 		}
 
-		System.out.println("Has escrito " + positivos 
-				+ " números positivos.");
+		System.out.println("Has escrito " + positivos + " números positivos.");
 
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

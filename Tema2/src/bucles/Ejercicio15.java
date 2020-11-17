@@ -18,7 +18,7 @@ public class Ejercicio15 {
 			suma = suma + precio;
 
 		}
-		
+
 		System.out.println("Precio total: " + suma + " €.");
 
 	}

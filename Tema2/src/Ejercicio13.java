@@ -10,7 +10,7 @@ public class Ejercicio13 {
 		int num = entrada.nextInt();
 
 		int resultado;
-		
+
 		for (int i = 1; i <= 10; i++) {
 
 			resultado = num * i;

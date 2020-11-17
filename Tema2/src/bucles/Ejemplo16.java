@@ -14,16 +14,15 @@ public class Ejemplo16 {
 		while (i < 500) {
 
 			i = i + 5;
-			
-			if(i % 100 == 0) {
+
+			if (i % 100 == 0) {
 				continue;
 			}
-			
+
 			System.out.println(i);
-			
 
 		}
-		
+
 		System.out.println("De nada.");
 
 	}
