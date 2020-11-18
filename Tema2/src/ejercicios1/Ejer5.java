@@ -9,9 +9,9 @@ public class Ejer5 {
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Elige el idioma para el saludo: \n1) Francés\n2) Inglés\n3) Alemán\n4) Italiano\n");
-		int numero = entrada.nextInt();
+		int opcion = entrada.nextInt();
 
-		switch (numero) {
+		switch (opcion) {
 
 		case 1:
 			System.out.println("Bonjour");
@@ -20,10 +20,13 @@ public class Ejer5 {
 			System.out.println("Good morning");
 			break;
 		case 3:
-			System.out.println("guten Morgen");
+			System.out.println("Guten Morgen");
 			break;
 		case 4:
 			System.out.println("Buongiorno");
+			break;
+		default:
+			System.out.println("Buenos días");
 
 		}
 	}

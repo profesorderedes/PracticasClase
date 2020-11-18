@@ -13,7 +13,7 @@ public class Ejer4 {
 
 		if (nota < 4) {
 			System.out.println("Rojo");
-		} else if (nota < 5 && nota >= 4) {
+		} else if (nota >= 4 && nota < 5) {
 			System.out.println("Verde");
 		} else if (nota >= 5) {
 			System.out.println("Azul");
