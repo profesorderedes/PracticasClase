@@ -12,13 +12,12 @@ public class Ejercicio21 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		int i = 1;
-
 		int num;
+		int contadorTabla;
 
-		for (i = 1; i <= 5; i++) {
+		for (int i = 1; i <= 5; i++) {
 
-			System.out.print("Introoduce un número y te diré la tabla de multiplicar: ");
+			System.out.print("Introduce un número y te diré la tabla de multiplicar: ");
 			num = entrada.nextInt();
 
 			if (num == 1) {
@@ -28,7 +27,7 @@ public class Ejercicio21 {
 
 			}
 
-			int contadorTabla = 1;
+			contadorTabla = 1;
 
 			while (contadorTabla <= 10) {
 
