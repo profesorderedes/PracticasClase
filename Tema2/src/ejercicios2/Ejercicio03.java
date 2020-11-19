@@ -5,13 +5,16 @@ public class Ejercicio03 {
 	public static void main(String[] args) {
 
 		int i = 0;
-
+		double potencia = 1;
+		
 		do {
-
-			System.out.println(Math.pow(i, 3));
+			
 			i++;
+			System.out.println(potencia);
+			potencia = 	Math.pow(3, i);
+			
 
-		} while (i <= 12);
+		} while (potencia < 12000);
 
 	}
 
