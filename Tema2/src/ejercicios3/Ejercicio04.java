@@ -2,14 +2,15 @@ package ejercicios3;
 
 import java.util.Scanner;
 
-public class Ejercicio03 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);
 		int num1, num2, suma;
+		char respuesta = 's';
 
-		while (true) {
+		while (respuesta == 's') {
 
 			num1 = (int) (Math.random() * 100 + 1);
 			num2 = (int) (Math.random() * 100 + 1);
@@ -25,10 +26,14 @@ public class Ejercicio03 {
 
 			} else {
 
-				System.out.println("Has fallado, el resultado era " 
-						+ (num1 + num2) + ".\n");
+				System.out.println("Has fallado, el resultado era " + (num1 + num2) + ".\n");
 
 			}
+
+			entrada.nextLine();
+
+			System.out.println("¿Quieres continuar?");
+			respuesta = entrada.nextLine().charAt(0);
 
 		}
 
