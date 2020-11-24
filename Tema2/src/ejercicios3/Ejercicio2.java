@@ -9,9 +9,7 @@ public class Ejercicio2 {
 		Scanner entrada = new Scanner(System.in);
 
 		int secreto = (int) (Math.random() * 10 + 1);
-
 		int intento = 0;
-
 		int intentos;
 
 		System.out.println("El número secreto es: " + secreto);
@@ -23,7 +21,6 @@ public class Ejercicio2 {
 		while (intentos <= 3) {
 
 			System.out.println("Tienes que adivinar el numero del 1 al 10");
-
 			intento = entrada.nextInt();
 
 			haAcertado = intento == secreto;
