@@ -22,6 +22,27 @@ public class Ejemplo4 {
 			i++;
 
 		} while (edad != 0);
+		
+		// Mostramos en la pantalla todas las edades leídas.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
