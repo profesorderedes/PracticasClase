@@ -22,34 +22,16 @@ public class Ejemplo4 {
 			i++;
 
 		} while (edad != 0);
-		
+
 		// Mostramos en la pantalla todas las edades leídas.
 		System.out.println("\nEdades registradas:");
-		i=0;
-		while(edades[i] != 0) {
-			
+		i = 0;
+		while (edades[i] != 0) {
+
 			System.out.println(edades[i]);
 			i++;
-			
+
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
