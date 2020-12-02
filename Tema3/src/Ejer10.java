@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Ejer10 {
 
 	public static void main(String[] args) {
+		
 		Scanner entrada = new Scanner(System.in);
 
 		double precios[] = new double[100];
@@ -10,6 +11,7 @@ public class Ejer10 {
 		int i = 0;
 		double total = 0;
 		
+		// Leemos los precios.
 		do {
 			System.out.println("Introduce el precio:");
 			precio = entrada.nextDouble();
@@ -19,13 +21,14 @@ public class Ejer10 {
 			i++;
 		} while (precio != 0);
 
-		System.out.println("Precios de su compra.");
+		// Mostramos los precios.
+		System.out.println("\nPrecios de su compra.");
 		i = 0;
 		while (precios[i] != 0) {
 			System.out.println(precios[i]);
 			i++;
 		}
-		System.out.println("El toatal es:" + total);
+		System.out.println("El total es:" + total);
 	}
 
 }
