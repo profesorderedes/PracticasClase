@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Ejer10 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner entrada = new Scanner(System.in);
 
 		double precios[] = new double[100];
 		double precio;
 		int i = 0;
 		double total = 0;
-		
+
 		// Leemos los precios.
 		do {
 			System.out.println("Introduce el precio:");

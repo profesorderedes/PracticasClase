@@ -11,13 +11,11 @@ public class Ejer3 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.print("Introduce un número y te diré si es par o "
-				+ "impar: ");
+		System.out.print("Introduce un número y te diré si es par o " + "impar: ");
 		int num = entrada.nextInt();
 
-		String resultado = (num % 2 == 0) ? "Este número es par." : 
-			"Este número es impar.";
-		
+		String resultado = (num % 2 == 0) ? "Este número es par." : "Este número es impar.";
+
 		System.out.println(resultado);
 
 	}

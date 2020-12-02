@@ -24,7 +24,7 @@ public class Ejemplo17 {
 			System.out.println();
 			System.out.print("Escribe una palabra: ");
 			palabra = entrada.nextLine();
-			
+
 		}
 
 		System.out.println("Fin.");

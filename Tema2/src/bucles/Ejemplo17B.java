@@ -16,19 +16,19 @@ public class Ejemplo17B {
 
 			System.out.print("Escribe una palabra: ");
 			palabra = entrada.nextLine();
-			
-			if(palabra.equals("STOP")) {
+
+			if (palabra.equals("STOP")) {
 				break;
 			}
 
 			for (int i = 1; i <= 5; i++) {
 				System.out.println(palabra);
 			}
-			
+
 			System.out.println();
 
 		}
-		
+
 		System.out.println("Fin.");
 
 	}
