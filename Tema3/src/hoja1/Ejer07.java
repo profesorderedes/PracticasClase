@@ -1,3 +1,4 @@
+package hoja1;
 import java.util.Scanner;
 
 public class Ejer07 {
