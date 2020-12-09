@@ -10,30 +10,31 @@ public class Ejer4 {
 
 		double productos[] = new double[10];
 		double precio = 0;
-		boolean semaforo = true;
+		boolean preciosCorrectos = true;
 		double suma = 0;
 
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Dime tus precios: ");
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < productos.length; i++) {
 			precio = entrada.nextDouble();
 			productos[i] = precio;
 		}
 
-		for (int j = 0; j < 10 && semaforo == true; j++) {
+		for (int j = 0; j < productos.length && preciosCorrectos; j++) {
 
-			if (productos[j] != 0) {
+			if (productos[j] > 0) {
 				suma = suma + productos[j];
 			} else {
-				System.out.println("Se ha encontrado un valor no valido en la posicion: " + (j + 1) + ""
-						+ " El programa terminara.");
-				semaforo = false;
+				System.out.println("Se ha encontrado un valor no válido en la posicion: " + (j + 1) + ""
+						+ " El programa terminará.");
+				preciosCorrectos = false;
 			}
 
 		}
-		if (semaforo == true) {
+
+		if (preciosCorrectos) {
 			System.out.println("La suma de sus precios es:" + suma);
 		}
 

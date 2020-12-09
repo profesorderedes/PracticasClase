@@ -19,6 +19,7 @@ public class Ejer9 {
 			test[i] = entrada.nextLine();
 
 		}
+
 		System.out.println(test[0]);
 
 		for (int i = 1; i < test.length; i++) {
