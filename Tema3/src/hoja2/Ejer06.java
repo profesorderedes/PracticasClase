@@ -24,15 +24,11 @@ public class Ejer06 {
 
 				posMin = i;
 
-				// System.out.println("posMin: " + i);
-
 			}
 
 			if (votos[i] > votos[posMax]) {
 
 				posMax = i;
-
-				// System.out.println("posMax: " + i);
 
 			}
 
@@ -43,7 +39,7 @@ public class Ejer06 {
 
 		System.out.println(
 				"\nMostraremos el partido con más votos, " + votos[posMax] + ", está en la posición: " + posMax);
-		
+
 	}
 
 }
