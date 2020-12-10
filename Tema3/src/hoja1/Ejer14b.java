@@ -20,14 +20,14 @@ public class Ejer14b {
 
 		while (pos != primos.length) {
 
-			// Reseteamos el valor 
+			// Reseteamos el valor
 			esPrimo = true;
-			
+
 			// Comprobamos si candidato es primo.
 			for (int i = 2; i < candidato; i++) {
 
-				//System.out.println("Dividiendo " + candidato + " entre " 
-			    //+ i + " ...");
+				// System.out.println("Dividiendo " + candidato + " entre "
+				// + i + " ...");
 
 				if (candidato % i == 0) {
 					esPrimo = false;
@@ -35,17 +35,17 @@ public class Ejer14b {
 				}
 
 			}
-			
+
 			// Si es primo, lo guardo en la posición del array que toque
-			if(esPrimo) {
+			if (esPrimo) {
 				primos[pos] = candidato;
 				pos++;
 			}
-			
+
 			candidato++;
 
 		}
-		
+
 		System.out.println("Listado de los cien primeros números primos:");
 		for (int i = 0; i < primos.length; i++) {
 			System.out.println("(" + i + ") " + primos[i]);

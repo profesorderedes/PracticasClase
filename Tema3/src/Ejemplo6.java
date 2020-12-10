@@ -7,7 +7,7 @@ public class Ejemplo6 {
 
 		int notas[] = { 7, 1, 9, 3, 0, 10 };
 		int posMin = 0; // Posición del mínimo del array
-		
+
 		System.out.println("posMin = 0");
 
 		for (int i = 1; i < notas.length; i++) {
@@ -20,9 +20,8 @@ public class Ejemplo6 {
 			}
 
 		}
-		
-		System.out.println("\nEl elemento más pequeño del array se "
-				+ "encuentra en \nla posición " + posMin 
+
+		System.out.println("\nEl elemento más pequeño del array se " + "encuentra en \nla posición " + posMin
 				+ " y su valor es " + notas[posMin] + ".");
 
 	}

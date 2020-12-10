@@ -41,7 +41,7 @@ public class Ejer8 {
 				break;
 			}
 
-			// Ejemplo de cómo podemos hacer que las notas se muestren 
+			// Ejemplo de cómo podemos hacer que las notas se muestren
 			// redondeadas sin decimales.
 			System.out.printf("La nota %d es: %.0f\n", i, notas[i]);
 
