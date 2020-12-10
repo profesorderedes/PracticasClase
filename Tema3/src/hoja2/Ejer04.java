@@ -2,7 +2,7 @@ package hoja2;
 
 import java.util.Scanner;
 
-public class Ejer4 {
+public class Ejer04 {
 	public static void main(String[] args) {
 
 //Pide 10 precios, al acabar devuelve la suma de todos ellos,
