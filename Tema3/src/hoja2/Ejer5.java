@@ -9,7 +9,7 @@ public class Ejer5 {
 		int posMin = 0;
 		int posMax = 0;
 
-		for (int i = 0; i < temp.length; i++) {
+		for (int i = 1; i < temp.length; i++) {
 
 			if (temp[i] < temp[posMin]) {
 
