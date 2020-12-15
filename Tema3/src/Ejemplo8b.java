@@ -54,7 +54,7 @@ public class Ejemplo8b {
 		}
 
 		// Mostramos el array ordenado.
-		System.out.println("\nArray ordenado:");
+		System.out.println("\n\nArray ordenado:");
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.print(numeros[i] + " ");
 		}
