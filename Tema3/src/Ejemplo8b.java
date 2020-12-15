@@ -48,7 +48,7 @@ public class Ejemplo8b {
 			
 			System.out.println("(I) Tras el intercambio, el array queda:");
 			for (int j = 0; j < numeros.length; j++) {
-				System.out.print(numeros[i] + " ");
+				System.out.print(numeros[j] + " ");
 			}
 
 		}
