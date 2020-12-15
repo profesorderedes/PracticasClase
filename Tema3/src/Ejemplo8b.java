@@ -1,13 +1,18 @@
 
 // Algoritmo de selección para ordenar un array.
 
-public class Ejemplo8 {
+public class Ejemplo8b {
 
 	public static void main(String[] args) {
 
 		int numeros[] = { 9, 4, 7, 6, 1, 8 };
 		int aux; // Variable para intercambiar los valores de dos posiciones
 		int posMin;
+		
+		System.out.println("Array sin ordenar:");
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.print(numeros[i] + " ");
+		}
 
 		// Recorremos el array desde la primera posición hasta la penúltima.
 		// La última posición estará ordenada cuando el resto del array lo esté.
@@ -41,6 +46,7 @@ public class Ejemplo8 {
 		}
 
 		// Mostramos el array ordenado.
+		System.out.println("\nArray ordenado:");
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.print(numeros[i] + " ");
 		}
