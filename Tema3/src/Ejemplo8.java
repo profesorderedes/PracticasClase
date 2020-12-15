@@ -30,9 +30,18 @@ public class Ejemplo8 {
 				}
 
 			}
+			
+			// Intercambiamos los valores de las posiciones i y posMin.
+			// O sea, colocamos el valor más pequeño de la parte aún sin ordenar
+			// del array, en la posición i.
+			
 
 		}
 
 	}
 
 }
+
+
+
+
