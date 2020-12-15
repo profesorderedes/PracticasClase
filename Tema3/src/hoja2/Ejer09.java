@@ -31,7 +31,7 @@ public class Ejer09 {
 
 		System.out.println("Array ordenado:");
 		for (int i = 0; i < precios.length; i++) {
-			System.out.print(precios[i] + " ");
+			System.out.print(precios[i] + "  ");
 		}
 
 	}
