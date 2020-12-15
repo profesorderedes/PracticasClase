@@ -18,7 +18,16 @@ public class Ejemplo8 {
 
 			// Vamos a buscar el mínimo entre i y el final del array.
 			posMin = i;
-			for (int j = 0; j < numeros.length; j++) {
+			for (int j = i + 1; j < numeros.length; j++) {
+
+				// Comprobamos si el valor de la posición j es menor que el
+				// de la posición posMin.
+				if (numeros[j] < numeros[posMin]) {
+
+					// La nueva posición del mínimo pasará a ser j.
+					posMin = j;
+
+				}
 
 			}
 

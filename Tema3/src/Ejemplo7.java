@@ -6,7 +6,7 @@ public class Ejemplo7 {
 	public static void main(String[] args) {
 
 		int notas[] = { 7, 1, 9, 3, 0, 10 };
-		int posMax = 0; // Posición del mínimo del array
+		int posMax = 0; // Posición del máximo del array
 
 		System.out.println("posMax = 0");
 
