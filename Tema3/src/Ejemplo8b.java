@@ -36,8 +36,8 @@ public class Ejemplo8b {
 
 			}
 
-			System.out.println("\n(B) El mínimo entre " + i + " y el final del "
-					+ "array está en la posición: " + posMin);
+			System.out.println(
+					"\n(B) El mínimo entre " + i + " y el final del " + "array está en la posición: " + posMin);
 
 			// Intercambiamos los valores de las posiciones i y posMin.
 			// O sea, colocamos el valor más pequeño de la parte aún sin ordenar
@@ -45,7 +45,7 @@ public class Ejemplo8b {
 			aux = numeros[i];
 			numeros[i] = numeros[posMin];
 			numeros[posMin] = aux;
-			
+
 			System.out.println("(I) Tras el intercambio, el array queda:");
 			for (int j = 0; j < numeros.length; j++) {
 				System.out.print(numeros[j] + " ");
