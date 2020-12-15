@@ -40,17 +40,14 @@ public class Ejemplo8 {
 
 		}
 
+		// Mostramos el array ordenado.
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.print(numeros[i] + " ");
+		}
+
 	}
 
 }
-
-
-
-
-
-
-
-
 
 
 
