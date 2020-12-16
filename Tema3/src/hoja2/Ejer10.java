@@ -11,6 +11,13 @@ public class Ejer10 {
 		float aux;
 		int posMin;
 
+		// Introducimos los valores.
+		System.out.println("Introduce los valores de las ocho temperaturas:");
+		for (int i = 0; i < temperaturas.length; i++) {
+			System.out.print("Temperatura " + i + ": ");
+			temperaturas[i] = entrada.nextFloat();
+		}
+
 		// Recorremos el array hasta la penúltima posición.
 		for (int i = 0; i < temperaturas.length - 1; i++) {
 
@@ -36,6 +43,9 @@ public class Ejer10 {
 		for (int i = 0; i < temperaturas.length; i++) {
 			System.out.print(temperaturas[i] + "  ");
 		}
+
+		System.out.println("\nTemperatura mínima: " + temperaturas[0]);
+		System.out.println("Temperatura máxima: " + temperaturas[temperaturas.length - 1]);
 
 	}
 
