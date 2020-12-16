@@ -6,6 +6,7 @@ public class Ejemplo9 {
 		int numeros[] = new int[1000];
 
 		// Rellenamos con números aleatorios entre 1 y 10000.
+		System.out.println("Rellenando el array...");
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] = (int) (Math.random() * 10000 + 1);
 		}
@@ -14,6 +15,7 @@ public class Ejemplo9 {
 		int aux;
 		int posMin;
 
+		System.out.println("\nOrdenando...");
 		for (int i = 0; i < numeros.length - 1; i++) {
 
 			// Fase de búsqueda.
@@ -32,6 +34,7 @@ public class Ejemplo9 {
 			numeros[posMin] = aux;
 		}
 		
+		System.out.println("\nMostrando el array ordenado...");
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.println(numeros[i]);
 		}
