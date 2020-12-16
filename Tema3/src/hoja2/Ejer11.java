@@ -22,7 +22,7 @@ public class Ejer11 {
 			edades[x] = edad;
 		}
 
-		for (int i = 0; i < edades.length; i++) {
+		for (int i = 0; i < edades.length - 1; i++) {
 
 			posMin = i;
 			for (int j = i + 1; j < edades.length; j++) {
