@@ -18,7 +18,7 @@ public class Ejemplo9 {
 		System.out.println(medidas[0][0] + " " + medidas[0][1] + " " + medidas[0][2]);
 
 		System.out.println("Fila 0:");
-		for (col = 0; col < 3; col++) {
+		for (col = 0; col < medidas[0].length; col++) {
 			System.out.print(medidas[0][col] + " ");
 		}
 		System.out.println();
@@ -26,7 +26,7 @@ public class Ejemplo9 {
 		// Mostrar la fila "fila".
 		fila = 3;
 		System.out.println("Fila " + fila + ":");
-		for(col = 0; col< 3; col++) {
+		for(col = 0; col< medidas[0].length; col++) {
 			System.out.print(medidas[fila][col] + " ");
 		}
 		
@@ -36,16 +36,34 @@ public class Ejemplo9 {
 				+ medidas[2][0] + " " + medidas[3][0]);
 
 		System.out.println("\nColumna 0:");
-		for(fila = 0; fila < 4; fila++) {
+		for(fila = 0; fila < medidas.length; fila++) {
 			System.out.println(medidas[fila][0]);
 		}
 		
-		 
-		
+		// Mostrar la columna "col".
+		col = 1;
+		System.out.println("\nColumna " + col + ":");
+		for(fila = 0; fila < medidas.length; fila++) {
+			System.out.println(medidas[fila][col]);
+		}
 		
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
