@@ -19,13 +19,8 @@ public class Ejer14b {
 			}
 
 			System.out.println();
-
-		}
-
-		// Averiguamos el precio total de los artículos.
-		for (int fila = 0; fila < precios.length; fila++) {
-
-			// Convierto el String de la fila i, columna 1, a float.
+			
+			// Vamos calculando el total de la columna 1 (precios).
 			precio = Float.parseFloat(precios[fila][1]);
 
 			total = total + precio;
