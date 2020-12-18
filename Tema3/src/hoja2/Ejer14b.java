@@ -1,6 +1,6 @@
 package hoja2;
 
-public class Ejer14 {
+public class Ejer14b {
 
 	public static void main(String[] args) {
 
