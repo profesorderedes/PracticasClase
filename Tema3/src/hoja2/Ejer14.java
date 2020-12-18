@@ -13,9 +13,15 @@ public class Ejer14 {
 		float precio;
 		
 		// Mostramos la tabla en pantalla.
-		
-		
-		
+		for (int fila = 0; fila < precios.length; fila++) {
+			
+			for (int col = 0; col < precios[0].length; col++) {
+				
+				System.out.print(precios[fila][col]);
+				
+			}
+			
+		}
 		
 		// Averiguamos el precio total de los artículos.
 		
