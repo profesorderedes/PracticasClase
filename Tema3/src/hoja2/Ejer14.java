@@ -17,9 +17,11 @@ public class Ejer14 {
 			
 			for (int col = 0; col < precios[0].length; col++) {
 				
-				System.out.print(precios[fila][col]);
+				System.out.print(precios[fila][col] + "\t");
 				
 			}
+			
+			System.out.println();
 			
 		}
 		
