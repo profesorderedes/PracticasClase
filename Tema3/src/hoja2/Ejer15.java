@@ -34,8 +34,8 @@ public class Ejer15 {
 
 		System.out.println("Precio total: " + total);
 		
-		int posMin = 0;
 		// Buscamos el menor y el mayor precio.
+		int posMin = 0, posMax = 0;
 		for (int fila = 0; fila < precios.length; fila++) {
 			
 			if(Float.parseFloat(precios[fila][1]) < 
@@ -43,10 +43,18 @@ public class Ejer15 {
 				posMin = fila;
 			}
 			
+			if(Float.parseFloat(precios[fila][1]) > 
+					Float.parseFloat(precios[posMax][1])) {
+				posMax = fila;
+			}
+			
 		}
 		
 		System.out.println("El artículo más barato es " + precios[posMin][0] 
 				+ ", que vale " + precios[posMin][1] + " euros.");
+		
+		System.out.println("El artículo más caro es " + precios[posMax][0] 
+				+ ", que vale " + precios[posMax][1] + " euros.");
 
 	}
 
