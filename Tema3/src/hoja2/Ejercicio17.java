@@ -1,6 +1,6 @@
 package hoja2;
 
-public class Ejercicio16 {
+public class Ejercicio17 {
 
 	public static void main(String[] args) {
 
@@ -28,5 +28,28 @@ public class Ejercicio16 {
 		System.out.println();
 		System.out.println("La nota media es: " + total / 5);
 
+		// Buscar la nota mínima.
+		int posMin = 0;
+		for (int fila = 0; fila < notas.length; fila++) {
+
+			if (Float.parseFloat((notas[fila][1])) < 
+					Float.parseFloat(notas[posMin][1])) {
+				posMin = fila;
+			}
+
+		}
+		
+		System.out.println(notas[posMin][0] + " ha sacado la nota más baja, un " 
+				+ notas[posMin][1] + ".");
+
 	}
 }
+
+
+
+
+
+
+
+
+
