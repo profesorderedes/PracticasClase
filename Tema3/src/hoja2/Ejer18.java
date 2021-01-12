@@ -32,38 +32,25 @@ public class Ejer18 {
 		int posMin = 0;
 		for (int fila = 0; fila < notas.length; fila++) {
 
-			if (Float.parseFloat((notas[fila][1])) < 
-					Float.parseFloat(notas[posMin][1])) {
+			if (Float.parseFloat((notas[fila][1])) < Float.parseFloat(notas[posMin][1])) {
 				posMin = fila;
 			}
 
 		}
-		
-		System.out.println(notas[posMin][0] + " ha sacado la nota más baja, un " 
-				+ notas[posMin][1] + ".");
-		
+
+		System.out.println(notas[posMin][0] + " ha sacado la nota más baja, un " + notas[posMin][1] + ".");
+
 		// Buscar la nota máxima.
 		int posMax = 0;
 		for (int fila = 0; fila < notas.length; fila++) {
 
-			if (Float.parseFloat((notas[fila][1])) > 
-					Float.parseFloat(notas[posMax][1])) {
+			if (Float.parseFloat((notas[fila][1])) > Float.parseFloat(notas[posMax][1])) {
 				posMax = fila;
 			}
 
 		}
 
-		System.out.println(notas[posMax][0] + " ha sacado la nota más alta, un " 
-				+ notas[posMax][1] + ".");
-		
+		System.out.println(notas[posMax][0] + " ha sacado la nota más alta, un " + notas[posMax][1] + ".");
+
 	}
 }
-
-
-
-
-
-
-
-
-
