@@ -1,6 +1,6 @@
 package hoja2;
 
-public class Ejercicio16 {
+public class Ejer16 {
 
 	public static void main(String[] args) {
 
