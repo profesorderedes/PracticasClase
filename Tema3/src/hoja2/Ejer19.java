@@ -29,15 +29,36 @@ public class Ejer19 {
 			System.out.println();
 
 		}
-		
+
 		// Mostramos los datos en la pantalla.
 		for (int fila = 0; fila < nominas.length; fila++) {
-			
-			System.out.println(nominas[fila][0] + "\t" + nominas[fila][1] 
-					+ "\t" + nominas[fila][2]);
-			
+
+			System.out.println(nominas[fila][0] + "\t" + nominas[fila][1] + "\t" + nominas[fila][2]);
+
 		}
+
+		// Calculamos el salario total.
+		float total = 0;
+		for (int fila = 0; fila < nominas.length; fila++) {
+
+			total = total + Float.parseFloat(nominas[fila][2]);
+
+		}
+		
+		System.out.println("El salario total es de " + total + " euros.");
 
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
