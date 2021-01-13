@@ -44,21 +44,23 @@ public class Ejer19 {
 			total = total + Float.parseFloat(nominas[fila][2]);
 
 		}
-		
+
 		System.out.println("El salario total es de " + total + " euros.");
+
+		// Buscamos a la persona con menor salario.
+		int posMin = 0;
+		for (int fila = 1; fila < nominas.length; fila++) {
+
+			if (Float.parseFloat(nominas[fila][2]) < Float.parseFloat(nominas[posMin][2])) {
+				posMin = fila;
+			}
+
+		}
+
+		System.out.println("El salario más bajo corresponde a " 
+				+ nominas[posMin][1] + " " + nominas[posMin][0]
+				+ ", y es de " + nominas[posMin][2] + " euros.");
 
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
