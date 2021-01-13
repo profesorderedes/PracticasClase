@@ -29,33 +29,27 @@ public class Ejer21 {
 			System.out.println();
 
 		}
-
-		// Mostramos los datos en la pantalla.
-		for (int fila = 0; fila < nominas.length; fila++) {
-
-			System.out.println(nominas[fila][0] + "\t" + nominas[fila][1] + "\t" + nominas[fila][2]);
-
-		}
-
-		// Calculamos el salario total.
+ 
 		float total = 0;
+		int posMin = 0;
 		for (int fila = 0; fila < nominas.length; fila++) {
-
+			
+			// Mostramos la fila correspondiente en la pantalla.
+			System.out.println(nominas[fila][0] + "\t" + nominas[fila][1] 
+					+ "\t" + nominas[fila][2]);
+			
+			// Calculamos el salario total.
 			total = total + Float.parseFloat(nominas[fila][2]);
-
+			
+			// Buscamos a la persona con menor salario.
+			if (Float.parseFloat(nominas[fila][2]) 
+					< Float.parseFloat(nominas[posMin][2])) {
+				posMin = fila;
+			}
+			
 		}
 
 		System.out.println("El salario total es de " + total + " euros.");
-
-		// Buscamos a la persona con menor salario.
-		int posMin = 0;
-		for (int fila = 1; fila < nominas.length; fila++) {
-
-			if (Float.parseFloat(nominas[fila][2]) < Float.parseFloat(nominas[posMin][2])) {
-				posMin = fila;
-			}
-
-		}
 
 		System.out.println("El salario más bajo corresponde a " 
 				+ nominas[posMin][1] + " " + nominas[posMin][0]
