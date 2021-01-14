@@ -2,5 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.replacements.nodes.PluginFactory_BinaryMathIntrinsicNode"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
