@@ -36,6 +36,9 @@ public class Ejer23 {
 		System.out.println("Suma de todas las temperaturas del edificio: " 
 				+ total + " ºC.");
 		
+		// Temperatura media de las cinco habitaciones.
+		System.out.println("Temperatura media de las cinco habitaciones = " 
+				+ total / 5);
 	}
 	
 }
