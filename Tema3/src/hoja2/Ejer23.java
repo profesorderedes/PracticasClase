@@ -17,12 +17,13 @@ public class Ejer23 {
 		for (int planta = 0; planta < temperaturas.length; planta++) {
 			
 			// Para cada planta, recorremos sus filas.
-			for (int fila = 0; fila < temperaturas.length; fila++) {
+			for (int fila = 0; fila < temperaturas[0].length; fila++) {
 				
 				// Para cada fila, recorremos sus celdas (columnas).+
-				for (int col = 0; col < temperaturas.length; col++) {
+				for (int col = 0; col < temperaturas[0][0].length; col++) {
 					
-					
+					System.out.println("p = " + planta + ", f = " + fila + 
+							", c = " + col);
 					
 				}
 				
