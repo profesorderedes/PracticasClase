@@ -4,7 +4,8 @@ public class Ejer23 {
 
 	public static void main(String[] args) {
 		
-		float temperaturas[ ][ ][ ] = new float[3][3][3];
+		float temperaturas[ ][ ][ ] = new float[5][4][6];
+		float total = 0;
 		
 		// Nos inventamos cinco temperaturas.
 		temperaturas[0][0][0] = 15;
@@ -22,14 +23,19 @@ public class Ejer23 {
 				// Para cada fila, recorremos sus celdas (columnas).+
 				for (int col = 0; col < temperaturas[0][0].length; col++) {
 					
-					System.out.println("p = " + planta + ", f = " + fila + 
-							", c = " + col);
+//					System.out.println("p = " + planta + ", f = " + fila + 
+//							", c = " + col);
+					total = total + temperaturas[planta][fila][col];
 					
 				}
 				
 			}
 			
 		}
+		
+		System.out.println("Suma de todas las temperaturas del edificio: " 
+				+ total + " ºC.");
+		
 	}
 	
 }
