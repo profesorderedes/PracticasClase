@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.replacements.nodes.PluginFactory_BinaryMathIntrinsicNode"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
