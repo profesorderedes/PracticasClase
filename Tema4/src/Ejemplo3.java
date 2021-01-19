@@ -6,6 +6,7 @@ public class Ejemplo3 {
 		mostrar("Carlos");
 		doble(100);
 		triple(50);
+		areaRectangulo(20, 30);
 
 	}
 
@@ -29,26 +30,8 @@ public class Ejemplo3 {
 
 	static void areaRectangulo(int lado1, int lado2) {
 
-		System.out.println("El área del rectágulo de lados " + lado1 
-				+ " y " + lado2 + " es " + lado1 * lado2);
+		System.out.println("El área del rectágulo de lados " + lado1 + " y " + lado2 + " es " + lado1 * lado2);
 
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
