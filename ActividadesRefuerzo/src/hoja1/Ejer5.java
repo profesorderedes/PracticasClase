@@ -52,7 +52,7 @@ public class Ejer5 {
 
 		}
 		
-		pesoMedio = pesoMedio / 4;
+		pesoMedio = pesoMedio / socios.length;
 
 		System.out.println("El peso medio de los socios del gimnasio es " + pesoMedio + " kg.");
 
