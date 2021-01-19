@@ -51,8 +51,10 @@ public class Ejer5 {
 			pesoMedio = pesoMedio + Float.parseFloat(socios[fila][2]);
 
 		}
+		
+		pesoMedio = pesoMedio / 4;
 
-		System.out.println("El peso medio de los socios del gimnasio es " + pesoMedio / socios.length + " kg.");
+		System.out.println("El peso medio de los socios del gimnasio es " + pesoMedio + " kg.");
 
 	}
 
