@@ -25,7 +25,7 @@ public class Ejemplo7 {
 			System.out.println("Tienes que escribir un número positivo.");
 			return;
 		}
-		
+
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i + " * " + num + " = " + (i * num));
 		}
@@ -33,16 +33,3 @@ public class Ejemplo7 {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
