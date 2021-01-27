@@ -9,8 +9,7 @@ public class Ejemplo7 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("¿De qué número quieres saber la tabla de " 
-				+ "multiplicar?");
+		System.out.println("¿De qué número quieres saber la tabla de " + "multiplicar?");
 		System.out.println("Introduce el número: ");
 
 		tablaMultiplicar(entrada.nextInt());
@@ -22,10 +21,28 @@ public class Ejemplo7 {
 
 	static void tablaMultiplicar(int num) {
 
-		for (int i = 0; i <= 10; i++) {
-			System.out.println((i + 1) + "* " + num + "=" + (i * num));
+		if (num < 0) {
+			System.out.println("Tienes que escribir un número positivo.");
+			return;
+		}
+		
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i + " * " + num + " = " + (i * num));
 		}
 
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
