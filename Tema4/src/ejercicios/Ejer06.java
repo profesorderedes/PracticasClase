@@ -1,5 +1,5 @@
 package ejercicios;
-public class Ejercicio06 {
+public class Ejer06 {
 
     public static void main(String[] args) {
        
