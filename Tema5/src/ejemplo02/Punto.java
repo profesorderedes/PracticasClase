@@ -13,5 +13,12 @@ public class Punto {
 		System.out.println("Color = " + color);
 
 	}
+	
+	void desplazar(int dx, int dy) {
+		
+		x = x + dx;
+		y = y + dy;
+		
+	}
 
 }
