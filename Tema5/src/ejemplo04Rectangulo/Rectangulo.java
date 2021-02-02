@@ -33,6 +33,14 @@ public class Rectangulo {
 	double perimetro() {
 		return 2 * base + 2 * altura;
 	}
+	
+	double mover(int dx) {
+		
+	}
+	
+	boolean estaDentro(int x1, int y1) {
+		
+	}
 
 }
 
