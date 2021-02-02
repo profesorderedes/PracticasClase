@@ -13,6 +13,12 @@ public class Main {
 		
 		rect.mostrar();
 		
+		double area = rect.area();
+		double perimetro = rect.perimetro();
+		
+		System.out.println("Área: " + area);
+		System.out.println("Perímetro: " + perimetro);
+		
 	}
 
 }
