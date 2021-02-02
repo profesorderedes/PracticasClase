@@ -1,4 +1,4 @@
-package ejemplo03;
+package ejemplo03Circulo;
 
 public class Circulo {
 

@@ -1,4 +1,4 @@
-package ejemplo02;
+package ejemplo02Punto;
 
 public class Main {
 
