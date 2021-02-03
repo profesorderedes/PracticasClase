@@ -33,12 +33,21 @@ public class Rectangulo {
 	double perimetro() {
 		return 2 * base + 2 * altura;
 	}
-	
-	double mover(int dx) {
-		
+
+	void mover(int dx) {
+		x = x + dx;
 	}
-	
+
 	boolean estaDentro(int x1, int y1) {
+
+		boolean interno;
+		if (x1 >= x && x1 <= x + base && y1 >= y - altura && y1 <= y) {
+			interno = true;
+		} else {
+			interno = false;
+		}
+		
+		return interno;
 		
 	}
 
