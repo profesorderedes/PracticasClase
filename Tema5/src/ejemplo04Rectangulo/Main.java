@@ -27,15 +27,12 @@ public class Main {
 		double y1 = 2;
 
 		System.out.println(
-				"\nAnalizando si el punto de coordenadas (" + x1 + "," + y1 
-				+ ") está dentro del rectángulo...");
-		if(rect.estaDentro(x1, y1) == true) {
+				"\nAnalizando si el punto de coordenadas (" + x1 + "," + y1 + ") está dentro del rectángulo...");
+		if (rect.estaDentro(x1, y1)) {
 			System.out.println("El punto está dentro del rectángulo.");
-		}else {
+		} else {
 			System.out.println("El punto está fuera del rectángulo.");
 		}
-		
-		
 
 	}
 
