@@ -38,7 +38,7 @@ public class Rectangulo {
 		x = x + dx;
 	}
 
-	boolean estaDentro(int x1, int y1) {
+	boolean estaDentro(double x1, double y1) {
 
 		boolean interno;
 		if (x1 >= x && x1 <= x + base && y1 >= y - altura && y1 <= y) {
