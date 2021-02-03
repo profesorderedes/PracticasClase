@@ -46,18 +46,9 @@ public class Rectangulo {
 		} else {
 			interno = false;
 		}
-		
+
 		return interno;
-		
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
