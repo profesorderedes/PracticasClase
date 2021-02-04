@@ -9,20 +9,16 @@ public class Persona {
 
 	// El mñetodo constructor de la clase Persona se ejecuta automáticamente
 	// cada vez que se crea new Persona();
-	
-	Persona(){
-		
+
+	Persona() {
+
 	}
-	
+
 	Persona(String nombre, String apellidos) {
 
 		// al DNI y al anyo, le pondremos valores predetermindos
 		// DNI=desconocido y anyo=0
-
-		this.nombre = nombre;
-		this.apellidos = apellidos;
-		dni = "DESCONOCIDO";
-		anyoNacimiento = 0;
+		this(nombre, apellidos, "DESCONOCIDO", 0);
 
 	}
 

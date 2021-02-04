@@ -17,6 +17,17 @@ public class Rectangulo {
 	// del rectángulo.
 	double x, y;
 	double base, altura;
+	
+	Rectangulo(){
+		
+	}
+
+	Rectangulo(double x, double y, double base, double altura) {
+		this.x = x;
+		this.y = y;
+		this.base = base;
+		this.altura = altura;
+	}
 
 	void mostrar() {
 

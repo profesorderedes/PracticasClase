@@ -17,6 +17,12 @@ public class Circulo {
 	Circulo(){
 		
 	}
+	
+	Circulo(double x, double y){
+		
+		this(x, y , 10);
+		
+	}
 
 	Circulo(double x, double y, double radio) {
 		this.x = x;
