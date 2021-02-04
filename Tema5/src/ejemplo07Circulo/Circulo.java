@@ -13,15 +13,15 @@ public class Circulo {
 
 	double x, y; // Posición del centro
 	double radio; // Radio del círculo
-	
-	Circulo(){
-		
+
+	Circulo() {
+
 	}
-	
-	Circulo(double x, double y){
-		
-		this(x, y , 10);
-		
+
+	Circulo(double x, double y) {
+
+		this(x, y, 10);
+
 	}
 
 	Circulo(double x, double y, double radio) {

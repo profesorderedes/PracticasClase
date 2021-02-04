@@ -24,13 +24,11 @@ public class Main {
 
 		System.out.println("\nDatos del círculo 2:");
 		circulo2.mostrar();
-		
+
 		Circulo circulo3 = new Circulo(5, 5);
 
 		System.out.println("\nDatos del círculo 3:");
 		circulo2.mostrar();
-		
-		
 
 	}
 
