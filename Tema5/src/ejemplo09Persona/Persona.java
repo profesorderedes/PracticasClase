@@ -40,8 +40,32 @@ public class Persona {
 		return nombre;
 	}
 	
+	void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
 	String getApellidos() {
 		return apellidos;
+	}
+	
+	void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	
+	String getDni() {
+		return dni;
+	}
+	
+	void setDni(String dni) {
+		this.dni = dni;
+	}
+	
+	int getAnyoNacimiento() {
+		return anyoNacimiento;
+	}
+	
+	void setAnyoNacimiento(int anyoNacimiento) {
+		this.anyoNacimiento = anyoNacimiento;
 	}
 
 }
