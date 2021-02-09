@@ -18,18 +18,18 @@ public class Rectangulo {
 	private double x, y;
 	private double base, altura;
 	
-	Rectangulo(){
+	public Rectangulo(){
 		
 	}
 
-	Rectangulo(double x, double y, double base, double altura) {
+	public Rectangulo(double x, double y, double base, double altura) {
 		this.x = x;
 		this.y = y;
 		this.base = base;
 		this.altura = altura;
 	}
 
-	void mostrar() {
+	public void mostrar() {
 
 		System.out.println("Coordenadas vértice superior izquierdo: (" + x + "," + y + ")");
 		System.out.println("Base: " + base);
@@ -37,19 +37,19 @@ public class Rectangulo {
 
 	}
 
-	double area() {
+	public double area() {
 		return base * altura;
 	}
 
-	double perimetro() {
+	public double perimetro() {
 		return 2 * base + 2 * altura;
 	}
 
-	void mover(int dx) {
+	public void mover(int dx) {
 		x = x + dx;
 	}
 
-	boolean estaDentro(double x1, double y1) {
+	public boolean estaDentro(double x1, double y1) {
 
 		boolean interno;
 		if (x1 >= x && x1 <= x + base && y1 >= y - altura && y1 <= y) {
