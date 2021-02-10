@@ -15,7 +15,7 @@ public class Circulo {
 
 	private double x, y; // Posición del centro
 	private double radio; // Radio del círculo
-	static int numObjetos;
+	private static int numObjetos;
 
 	Circulo() {
 		numObjetos++;
@@ -70,6 +70,16 @@ public class Circulo {
 	public void setRadio(double radio) {
 		this.radio = radio;
 	}
+
+	public static int getNumObjetos() {
+		return numObjetos;
+	}
+
+	public static void setNumObjetos(int numObjetos) {
+		Circulo.numObjetos = numObjetos;
+	}
+	
+	
 	
 	
 

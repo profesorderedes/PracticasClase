@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("El radio del círculo 3 es " + circulo3.getRadio());
 		
 		System.out.println("\nObjetos creados de la clase Circulo: " 
-				+ Circulo.numObjetos);
+				+ Circulo.getNumObjetos());
 
 	}
 
