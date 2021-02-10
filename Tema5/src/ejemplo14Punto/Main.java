@@ -20,11 +20,11 @@ public class Main {
 		
 		// Miramos cuántos objetos se han creado de la clase Punto.
 		System.out.println("Hemos creado " 
-		     + Punto.numInstancias + " instancias de la clase Punto.");
+		     + Punto.getNumInstancias() + " instancias de la clase Punto.");
 		
 		Punto punto4 = new Punto();
 		System.out.println("Hemos creado " 
-			     + Punto.numInstancias + " instancias de la clase Punto.");
+			     + Punto.getNumInstancias() + " instancias de la clase Punto.");
 
 	}
 

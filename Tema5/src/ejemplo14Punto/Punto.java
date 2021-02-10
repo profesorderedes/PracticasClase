@@ -7,7 +7,7 @@ public class Punto {
 	private int x; // Coordenada x del punto
 	private int y; // Coordenada y del punto
 	private String color; // Color del punto
-	static int numInstancias;
+	private static int numInstancias;
 	
 	// Constructor implícito.
 	Punto() {
@@ -65,5 +65,15 @@ public class Punto {
 	public void setColor(String color) {
 		this.color = color;
 	}
+
+	public static int getNumInstancias() {
+		return numInstancias;
+	}
+
+	public static void setNumInstancias(int numInstancias) {
+		Punto.numInstancias = numInstancias;
+	}
+	
+	
 
 }
