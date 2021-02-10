@@ -14,18 +14,18 @@ public class Inicio {
 		double area = Cilindro1.getArea();
 		double volumen = Cilindro1.getVolumen();
 		
-		System.out.println("El area del cilindro1 es: " + area);
-		System.out.println("El volumen del cilindro1 es: " + volumen);
+		System.out.println("El área del cilindro 1 es: " + area);
+		System.out.println("El volumen del cilindro 1 es: " + volumen);
 		
-		Cilindro Cilindro2 = new Cilindro();
+		Cilindro cilindro2 = new Cilindro();
 		
-		Cilindro2.setAltura(10);
-		Cilindro2.setRadio(5);
+		cilindro2.setAltura(10);
+		cilindro2.setRadio(5);
 		
-		System.out.println("\nEl area del cilindro2 es: " + area);
-		System.out.println("El volumen del cilindro2 es: " + volumen);
+		System.out.println("\nEl area del cilindro2 es: " + cilindro2.getArea());
+		System.out.println("El volumen del cilindro2 es: " + cilindro2.getVolumen());
 		
-		System.out.println("\nDatos del cilindro2 " + Cilindro2.toString());
+		System.out.println("\nDatos del cilindro2: \n" + cilindro2.toString());
 		
 	}
 	

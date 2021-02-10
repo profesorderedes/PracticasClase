@@ -4,14 +4,15 @@ public class Cilindro {
 	
 	private int altura;
 	private int radio;
-	private double PI = 3.141592;
+	private final static double PI = 3.141592;
 	
 	public Cilindro(){
 		
 	}
 	
 	public Cilindro(int altura, int radio){
-		
+		this.altura = altura;
+		this.radio = radio;
 	}
 
 	public int getAltura() {
@@ -35,14 +36,15 @@ public class Cilindro {
 	}
 	
 	public double getVolumen() {
-		return PI * (radio * radio) * altura;
+		return PI * radio * radio * altura;
 	}
 
+	@Override
 	public String toString() {
-		return "[altura=" + altura + ", radio=" + radio + "]";
+		return "Cilindro [altura=" + altura + ", radio=" + radio + "]";
 	}
 	
-
+	
 	
 
 	
