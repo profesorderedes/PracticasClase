@@ -33,7 +33,7 @@ public class Circulo {
 		this.radio = radio;
 		numObjetos++;
 	}
-
+	
 	void mostrar() {
 		System.out.println("Coordenadas del centro: (" + x + "," + y + ").");
 		System.out.println("Radio: " + radio + ".");
