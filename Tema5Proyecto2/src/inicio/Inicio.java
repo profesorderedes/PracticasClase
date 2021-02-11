@@ -9,14 +9,17 @@ public class Inicio {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Dime los kilometros, te dire las millas: ");
-		Conversor.millas(entrada.nextDouble());
+		System.out.println("Dime los kilometros, te diré las millas: ");
+		double km = entrada.nextDouble();
+		System.out.println(Conversor.millas(km) + " millas.");
 		
 		System.out.println("Dime los milibares, te dire las atmosferas: ");
-		Conversor.atmosferas(entrada.nextDouble());
+		double mb = entrada.nextDouble();
+		System.out.println(Conversor.atmosferas(mb) + " atmósferas.");
 		
 		System.out.println("Dime las calorias, te dire los julios: ");
-		Conversor.julios(entrada.nextDouble());
+		double cal = entrada.nextDouble();
+		System.out.println(Conversor.julios(cal) + " julios.");
 		
 	}
 

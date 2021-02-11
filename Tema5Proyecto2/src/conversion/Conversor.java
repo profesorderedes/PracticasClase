@@ -10,27 +10,28 @@ public class Conversor {
 
 	}
 
-	public static void millas(double km) {
-		System.out.println(km * KM_A_MILLAS);
+	public static double millas(double km) {
+		return km * KM_A_MILLAS;
 	}
 
-	public static void km(double millas) {
-		System.out.println(millas / KM_A_MILLAS);
+	public static double km(double millas) {
+		return millas / KM_A_MILLAS;
 	}
 
-	public static void atmosferas(double milibares) {
-		System.out.println(milibares * MB_A_ATM);
+	public static double atmosferas(double milibares) {
+		return milibares * MB_A_ATM;
 	}
 
-	public static void milibares(double atmosferas) {
-		System.out.println(atmosferas / MB_A_ATM);
+	public static double milibares(double atmosferas) {
+		return atmosferas / MB_A_ATM;
 	}
 
-	public static void julios(double calorias) {
-		System.out.println(calorias * CAL_A_JULIOS);
+	public static double julios(double calorias) {
+		return calorias * CAL_A_JULIOS;
 	}
 
-	public static void calorias(double julios) {
-		System.out.println(julios / CAL_A_JULIOS);
+	public static double calorias(double julios) {
+		return julios / CAL_A_JULIOS;
 	}
+	
 }
