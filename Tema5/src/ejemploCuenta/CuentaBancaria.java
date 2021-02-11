@@ -28,6 +28,17 @@ public class CuentaBancaria {
 		return false;
 
 	}
+	
+	boolean retirar(int cantidad, int comision) {
+		
+		if (cantidad + comision <= saldo) {
+			saldo = saldo - cantidad - comision;
+			return true;
+		}
+
+		return false;
+		
+	}
 
 	int obtenerSaldo() {
 
