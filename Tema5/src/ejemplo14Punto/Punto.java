@@ -8,7 +8,7 @@ public class Punto {
 	private int y; // Coordenada y del punto
 	private String color; // Color del punto
 	private static int numInstancias;
-	
+
 	// Constructor implícito.
 	Punto() {
 		numInstancias++;
@@ -32,6 +32,13 @@ public class Punto {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
 		System.out.println("Color = " + color);
+
+	}
+
+	void desplazar(int dx) {
+
+		x = x + dx;
+		// También se podría haber escrito desplazar(dx,0)
 
 	}
 
@@ -73,7 +80,5 @@ public class Punto {
 	public static void setNumInstancias(int numInstancias) {
 		Punto.numInstancias = numInstancias;
 	}
-	
-	
 
 }
