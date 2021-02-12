@@ -7,5 +7,8 @@
     <fullyQualifiedTypeName name="ejemplo04Rectangulo.Rectangulo"/>
     <fullyQualifiedTypeName name="ejemplo07Circulo.Circulo"/>
     <fullyQualifiedTypeName name="ejemploCuenta.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="conversion.Conversor"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Timer"/>
+    <fullyQualifiedTypeName name="javax.swing.Timer"/>
 </qualifiedTypeNameHistroy>

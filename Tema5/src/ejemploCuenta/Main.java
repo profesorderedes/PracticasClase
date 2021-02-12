@@ -12,16 +12,17 @@ public class Main {
 		System.out.println("Saldo actual: " + cuenta.obtenerSaldo() + " €.");
 		
 		
-		if(!cuenta.retirar(300)) {
-			System.out.println("No se ha podido retirar la cantidad.");
-		}
+//		if(!cuenta.retirar(300)) {
+//			System.out.println("No se ha podido retirar la cantidad.");
+//		}
+//		
+//		System.out.println("Saldo actual: " + cuenta.obtenerSaldo() + " €.");
+//		
+//		if(!cuenta.retirar(1000)) {
+//			System.out.println("No se ha podido retirar la cantidad.");
+//		}
 		
-		System.out.println("Saldo actual: " + cuenta.obtenerSaldo() + " €.");
-		
-		if(!cuenta.retirar(1000)) {
-			System.out.println("No se ha podido retirar la cantidad.");
-		}
-		
+		cuenta.retirar(300, 5);
 		System.out.println("Saldo actual: " + cuenta.obtenerSaldo() + " €.");
 		
 		
