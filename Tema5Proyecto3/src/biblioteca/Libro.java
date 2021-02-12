@@ -8,11 +8,11 @@ public class Libro {
 	private static int anyoActual = 2021;
 
 	// Métodos constructores:
-	Libro(String titulo) {
+	public Libro(String titulo) {
 		this.titulo = titulo;
 	}
 
-	Libro(String titulo, String isbn, Autor autor) {
+	public Libro(String titulo, String isbn, Autor autor) {
 		this.titulo = titulo;
 		this.isbn = isbn;
 		this.autor = autor;
@@ -41,7 +41,8 @@ public class Libro {
 
 	public String toString() {
 		return "El libro " + titulo + ", con el isbn: " + isbn 
-				+ ". Ha sido escrito por, "+ autor.toString() + "en el año " + anyoActual
+				+ ". Ha sido escrito por "+ autor.getNombre() + " en el año " 
+				+ anyoActual
 				+ ".";
 	}
 

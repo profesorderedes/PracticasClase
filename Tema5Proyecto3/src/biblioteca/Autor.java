@@ -6,10 +6,6 @@ public class Autor {
 	private String email;
 	private int fechaNacimiento; // año
 
-	public Autor() {
-
-	}
-
 	public Autor(String nombre) {
 		this(nombre, "Unknown", 0);
 	}
