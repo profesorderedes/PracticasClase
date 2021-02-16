@@ -41,9 +41,7 @@ public class Libro {
 
 	public String toString() {
 		return "El libro " + titulo + ", con el isbn: " + isbn 
-				+ ". Ha sido escrito por "+ autor.getNombre() + " en el año " 
-				+ anyoActual
-				+ ".";
+				+ ". Ha sido escrito por "+ autor.getNombre();
 	}
 
 }

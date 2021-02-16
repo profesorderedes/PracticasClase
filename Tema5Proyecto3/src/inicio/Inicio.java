@@ -1,32 +1,47 @@
 package inicio;
 
+import java.util.*;
+
 import biblioteca.*;
 
 public class Inicio {
 
 	public static void main(String[] args) {
 
-		/*
-		Ejercicio:
+		Scanner entrada = new Scanner(System.in);
 		
-		- Pedir al usuario los datos de un autor.
-		- Pedir al usuario el título, el isbn y el año actual de un libro.
-		- Crear el objeto Libro que tendrá como autor el que se ha introducido
-			antes.
-		- Ejecutar el toString() del libro.
-		 */
+		System.out.println("ALTA DE LIBROS EN LA BIBLIOTECA\n");
 
-		Autor autor1 = new Autor("Manuel", "manuel@gmail.com", 1970);
-//		System.out.println(autor1.toString());
+		System.out.println("Introduce los datos del autor");
+		System.out.println("=============================");
+		System.out.print("Nombre: ");
 
-		autor1.setFechaNacimiento(1989);
-//		System.out.println(autor1.toString());
+		String nombre = entrada.nextLine();
 
-		Autor autor2 = new Autor("Maria");
+		System.out.print("Email: ");
+		String email = entrada.nextLine();
+		
+		System.out.print("Año de nacimiento: ");
+		int fechaNacimiento = entrada.nextInt();
+		
+		Autor autor1 = new Autor(nombre, email, fechaNacimiento);
+		
+		System.out.println("Introduce los datos del libro");
+		System.out.println("=============================");
+		
+		entrada.nextLine();
+		
+		System.out.println("Introduce el titulo");
 
-		Libro libro1 = new Libro("Crónicas", "1910-110-1-11-1", autor1);
+		String titulo = entrada.nextLine();
 
-		System.out.println(libro1.toString());
+		System.out.println("Introduce el isbn");
+
+		String isbn = entrada.nextLine();
+
+		Libro libro1 = new Libro(titulo, isbn, autor1);
+
+		System.out.println("Información del libro: " + libro1.toString());
 
 	}
 
