@@ -8,10 +8,12 @@
     <fullyQualifiedTypeName name="ejemplo07Circulo.Circulo"/>
     <fullyQualifiedTypeName name="ejemploCuenta.CuentaBancaria"/>
     <fullyQualifiedTypeName name="conversion.Conversor"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Timer"/>
     <fullyQualifiedTypeName name="javax.swing.Timer"/>
     <fullyQualifiedTypeName name="biblioteca.Libro"/>
     <fullyQualifiedTypeName name="biblioteca.Autor"/>
     <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+    <fullyQualifiedTypeName name="auxiliar.Grupo"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="auxiliar.Alumno"/>
 </qualifiedTypeNameHistroy>
