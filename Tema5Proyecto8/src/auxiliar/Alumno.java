@@ -46,6 +46,7 @@ public class Alumno {
 
 		grupo = new Grupo();
 		grupo.leeDatos(); 
+		
 	}
 
 }
