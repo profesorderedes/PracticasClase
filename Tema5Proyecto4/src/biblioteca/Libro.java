@@ -48,46 +48,38 @@ public class Libro {
 	}
 
 	public String toString() {
-		
+
 		// Compruebo si hay un autor o varios. Si sólo hay uno, pongo su nombre,
 		// y si hay varios, pongo "Varios autores".
 		String nombre;
-		if(autor.length == 1) {
+		if (autor.length == 1) {
 			nombre = autor[0].getNombre();
-		}else {
+		} else {
 			nombre = "Varios autores";
 		}
-		
-		return "El libro " + titulo + ", con el isbn: " + isbn 
-				+ ". Ha sido escrito por " + nombre + ".";
-		
+
+		return "El libro " + titulo + ", con el isbn: " + isbn + ". \nHa sido escrito por " + nombre + ".";
+
 	}
-	
+
 	public void muestraAutores() {
-		
+
 		for (int i = 0; i < autor.length; i++) {
-			System.out.print(autor[i].getNombre()+" - ");
+			System.out.print(autor[i].getNombre());
+			if (i < autor.length - 1) {
+				System.out.print(" - ");
+			}
 		}
-		
+
+		// Manera alternativa:
+//		String nombreAutores[] = new String[autor.length];
+//
+//		for (int i = 0; i < autor.length; i++) {
+//			nombreAutores[i] = autor[i].getNombre();
+//		}
+//
+//		System.out.println(String.join(" - ", nombreAutores));
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
