@@ -16,7 +16,15 @@ public class Inicio {
 		Grupo grupo1 = new Grupo(1, "ESO", 3, "C");
 		Alumno alu1 = new Alumno(990, "Martínez López", "Manuel", grupo1);
 		
-		System.out.println(alu1.toString());
+//		System.out.println(alu1.toString());
+		
+		Alumno alu2 = new Alumno();
+		
+		alu2.leeDatos();
+		
+		System.out.println(alu2.toString());
+		
+		
 
 	}
 
