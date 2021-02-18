@@ -66,7 +66,7 @@ public class Libro {
 	public void muestraAutores() {
 		
 		for (int i = 0; i < autor.length; i++) {
-			System.out.print(autor[i].getNombre()" - ");
+			System.out.print(autor[i].getNombre()+" - ");
 		}
 		
 	}
