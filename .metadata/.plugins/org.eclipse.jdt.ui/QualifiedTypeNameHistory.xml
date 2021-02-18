@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="java.util.Timer"/>
     <fullyQualifiedTypeName name="javax.swing.Timer"/>
     <fullyQualifiedTypeName name="biblioteca.Libro"/>
+    <fullyQualifiedTypeName name="biblioteca.Autor"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 </qualifiedTypeNameHistroy>

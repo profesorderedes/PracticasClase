@@ -51,11 +51,23 @@ public class Libro {
 		
 		// Compruebo si hay un autor o varios. Si sólo hay uno, pongo su nombre,
 		// y si hay varios, pongo "Varios autores".
-		
-		
+		String nombre;
+		if(autor.length == 1) {
+			nombre = autor[0].getNombre();
+		}else {
+			nombre = "Varios autores";
+		}
 		
 		return "El libro " + titulo + ", con el isbn: " + isbn 
-				+ ". Ha sido escrito por " + autor.getNombre();
+				+ ". Ha sido escrito por " + nombre + ".";
+		
+	}
+	
+	public void muestraAutores() {
+		
+		for (int i = 0; i < autor.length; i++) {
+			System.out.print(autor[i].getNombre()" - ");
+		}
 		
 	}
 
