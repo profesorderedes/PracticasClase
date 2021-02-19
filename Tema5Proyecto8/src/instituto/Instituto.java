@@ -62,5 +62,51 @@ public class Instituto {
 		}
 
 	}
+	
+	public int numAlumnos() {
+		
+		int numAlumnos = 0;
+		
+		// Recorremos el array
+		for (int i = 0; i < alumnos.length; i++) {
+			
+			if(alumnos[i] != null) {
+				numAlumnos++;
+			}
+			
+		}
+		
+		return numAlumnos;
+		
+	}
+	
+	public int buscaAlumno(int numExp) {
+		
+		for (int i = 0; i < alumnos.length; i++) {
+			
+			
+			
+		}
+		
+	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
