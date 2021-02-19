@@ -45,8 +45,12 @@ public class Alumno {
 		System.out.println("Grupo: ");
 
 		grupo = new Grupo();
-		grupo.leeDatos(); 
-		
+		grupo.leeDatos();
+
+	}
+
+	public int getNumExpediente() {
+		return numExpediente;
 	}
 
 }
