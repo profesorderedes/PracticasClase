@@ -33,6 +33,7 @@ public class Instituto {
 		System.out.println("===================================");
 		for (int i = 0; i < alumnos.length; i++) {
 			
+			// Si alumnos[i] fuera null, nos daría NullPointerException.
 			if(alumnos[i] != null) {
 				System.out.println(alumnos[i].toString());
 			}
