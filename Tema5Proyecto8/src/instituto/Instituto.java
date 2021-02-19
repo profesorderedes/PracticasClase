@@ -25,5 +25,33 @@ public class Instituto {
 		}
 		
 	}
+	
+	// Muestra una lista con todos los alumnos matriculados.
+	public void muestraAlumnos() {
+		
+		System.out.println("LISTADO DE ALUMNOS");
+		System.out.println("===================================");
+		for (int i = 0; i < alumnos.length; i++) {
+			
+			if(alumnos[i] != null) {
+				System.out.println(alumnos[i].toString());
+			}
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
