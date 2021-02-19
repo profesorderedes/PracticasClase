@@ -24,39 +24,33 @@ public class Inicio {
 
 		// Creamos un objeto Instituto para los datos del IES Son Ferrer.
 		Instituto iessonferrer = new Instituto();
-		
+
 		// Matriculamos (añadimos) a tres alumnos para hacer pruebas.
 		iessonferrer.addAlumno(alu1);
 		iessonferrer.addAlumno(alu2);
 		iessonferrer.addAlumno(alu3);
-		
+
 		// Vemos el listado de alumnos.
 		iessonferrer.muestraAlumnos();
-		
+
 		// Eliminamos al alumno cuyo número de expediente es 990.
 		iessonferrer.delAlumno(990);
-		
+
 		// Vemos otra vez el listado de alumnos.
 		iessonferrer.muestraAlumnos();
-		
+
 		// Averiguamos cuántos alumnos hay en el instituto.
 		int numeroDeAlumnos = iessonferrer.numAlumnos();
-		
+
 		// Mostramos cuántos alumnos hay en el instituto.
 		System.out.println("El número de alumnos es " + numeroDeAlumnos);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+		// Buscamos al alumno cuyo número de expediente es 991.
+		System.out.println("Posición del alumno con número de expediente 991: " + iessonferrer.buscaAlumno(991));
+
+		// Buscamos al alumno cuyo número de expediente es 990 (lo hemos
+		// borrado antes).
+		System.out.println("Posición del alumno con número de expediente 990: " + iessonferrer.buscaAlumno(990));
 
 	}
 

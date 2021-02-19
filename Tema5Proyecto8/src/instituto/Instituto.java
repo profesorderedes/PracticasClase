@@ -35,8 +35,7 @@ public class Instituto {
 			// el número de expediente que me acaban de pasar.
 			// También compruebo antes que alumnos[i] no sea null, para
 			// evitar un NullPointerException.
-			if (alumnos[i] != null && 
-					alumnos[i].getNumExpediente() == numExpediente) {
+			if (alumnos[i] != null && alumnos[i].getNumExpediente() == numExpediente) {
 
 				alumnos[i] = null;
 				break;
@@ -62,51 +61,36 @@ public class Instituto {
 		}
 
 	}
-	
+
 	public int numAlumnos() {
-		
+
 		int numAlumnos = 0;
-		
+
 		// Recorremos el array
 		for (int i = 0; i < alumnos.length; i++) {
-			
-			if(alumnos[i] != null) {
+
+			if (alumnos[i] != null) {
 				numAlumnos++;
 			}
-			
+
 		}
-		
+
 		return numAlumnos;
-		
+
 	}
-	
+
 	public int buscaAlumno(int numExp) {
-		
+
 		for (int i = 0; i < alumnos.length; i++) {
-			
-			
-			
+
+			if (alumnos[i] != null && alumnos[i].getNumExpediente() == numExp) {
+				return i;
+			}
+
 		}
-		
+
+		return -1;
+
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

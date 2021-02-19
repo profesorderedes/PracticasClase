@@ -62,7 +62,5 @@ public class Grupo {
 	public String getClase() {
 		return clase;
 	}
-	
-	
 
 }
