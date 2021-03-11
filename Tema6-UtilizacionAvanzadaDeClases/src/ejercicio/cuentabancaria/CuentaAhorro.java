@@ -20,11 +20,11 @@ public class CuentaAhorro extends CuentaBancaria {
 		this.porcentajeInteres = porcentajeInteres;
 	}
 
-	public double getPorcentageInteres() {
+	public double getPorcentajeInteres() {
 		return porcentajeInteres;
 	}
 
-	public void setPorcentageInteres(double porcentajeInteres) {
+	public void setPorcentajeInteres(double porcentajeInteres) {
 		this.porcentajeInteres = porcentajeInteres;
 	}
 
